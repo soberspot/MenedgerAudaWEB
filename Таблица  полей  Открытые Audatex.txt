@@ -1,0 +1,13 @@
+Таблица дел открытые
+
+TaskId
+CaseId
+ClaimId
+ClaimNumber
+TaskStatus
+VIN
+AccidentDateTime
+PlateNumber
+ManufacturerName
+ModelName
+CreationDate

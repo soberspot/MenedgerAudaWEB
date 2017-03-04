@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TaskProxyList xmlns="http://www.audatex.com/SAXIF">
+  <TaskProxy>
+    <TaskId>9EB3A675-DD00-013B-C22B-0AED956D4622</TaskId>
+    <CaseId>6CD9AB1C-30B4-2D8B-9AE0-58B660D876B1</CaseId>
+    <ClaimNumber>207</ClaimNumber>
+    <VIN>WDD2120541A283276</VIN>
+    <PlateNumber>М333МЕ93</PlateNumber>
+    <ManufacturerName>MERCEDES-BENZ [V] [R] [03]</ManufacturerName>
+    <ModelName>E-Class (W212/S212) 03/09-  [V] [M] [AE]</ModelName>
+    <CreationDate>2013-07-03T22:04:16.836</CreationDate>
+  </TaskProxy>
+  <TaskProxy>
+    <TaskId>ADC93211-299B-BA64-5A85-225FA89B200E</TaskId>
+    <CaseId>8C016C09-8899-93D6-2B85-98BE04D22DD5</CaseId>
+    <ClaimNumber>Ковтун</ClaimNumber>
+    <VIN>Z94CB41ABCR034199</VIN>
+    <PlateNumber>ALEKSEY</PlateNumber>
+    <ManufacturerName>KIA [R] [28]</ManufacturerName>
+    <ModelName>RIO III ( Rus) 06/11-  [34]</ModelName>
+    <CreationDate>2013-07-02T21:13:20.076</CreationDate>
+  </TaskProxy>
+  <TaskProxy>
+    <TaskId>7DA14E16-9A24-B009-C5AE-A0A6307D8C9C</TaskId>
+    <CaseId>D82C5133-540F-EA60-E7F9-6A48D5D597F1</CaseId>
+    <ClaimNumber>176</ClaimNumber>
+    <VIN>XTA217030B0331372</VIN>
+    <PlateNumber>С041АХ123</PlateNumber>
+    <ManufacturerName>LADA [R] [09]</ManufacturerName>
+    <ModelName>Priora (Sedan/Estate) (2170/2171) 03/07-  [M] [17]</ModelName>
+    <CreationDate>2013-07-02T16:47:06.795</CreationDate>
+  </TaskProxy>
+  <TaskProxy>
+    <TaskId>D728B16C-1A9D-D07F-8050-9E3D5575DB4F</TaskId>
+    <CaseId>CB7D688B-8DF1-44BE-9F71-70B9A1E4B11A</CaseId>
+    <ClaimNumber>178</ClaimNumber>
+    <VIN>JTMBE31V50D098425</VIN>
+    <PlateNumber>T777УУ93</PlateNumber>
+    <ManufacturerName>TOYOTA [70]</ManufacturerName>
+    <ModelName>RAV 4 (XA3) 11/05-  [M] [96]</ModelName>
+    <CreationDate>2013-07-02T13:44:29.175</CreationDate>
+  </TaskProxy>
+  <TaskProxy>
+    <TaskId>39ADCF71-F1BA-C633-77B2-6EB60C0C066F</TaskId>
+    <CaseId>DCCE2CA7-4CAC-9406-E442-34096A31767A</CaseId>
+    <ClaimNumber>156</ClaimNumber>
+    <VIN>XWKFB227280077742</VIN>
+    <PlateNumber>Р362ОК93</PlateNumber>
+    <ManufacturerName>KIA [R] [28]</ManufacturerName>
+    <ModelName>Spectra 06/00-  [M] [13]</ModelName>
+    <CreationDate>2013-06-27T11:58:18.841</CreationDate>
+  </TaskProxy>
+  <TaskProxy>
+    <TaskId>F27A767D-F1B2-661B-CED9-2DB0754384B8</TaskId>
+    <CaseId>DDA39433-8514-C660-60A7-099877410840</CaseId>
+    <ClaimNumber>159</ClaimNumber>
+    <VIN>JMBXTGA3WCZ001214</VIN>
+    <PlateNumber>В512ВА123</PlateNumber>
+    <ManufacturerName>MITSUBISHI [R] [32]</ManufacturerName>
+    <ModelName>ASX 06/10-  [M] [78]</ModelName>
+    <CreationDate>2013-06-25T21:47:29.820</CreationDate>
+  </TaskProxy>
+  <TaskProxy>
+    <TaskId>F51DDCD7-0891-3124-AB11-F9535F07B1A8</TaskId>
+    <CaseId>95118F51-0ED2-F8A5-8891-17771FDA7370</CaseId>
+    <ClaimNumber>167</ClaimNumber>
+    <VIN>XW7BF4FK50S021446</VIN>
+    <PlateNumber>T119RO123</PlateNumber>
+    <ManufacturerName>TOYOTA [70]</ManufacturerName>
+    <ModelName>Camry (XV50) 09/11-  [A1]</ModelName>
+    <CreationDate>2013-06-24T12:39:56.469</CreationDate>
+  </TaskProxy>
+  <TaskProxy>
+    <TaskId>348D9DF2-A08D-7993-2350-D5D4D0FC6946</TaskId>
+    <CaseId>46497E02-E561-2DFF-A08A-7CABA6DECB01</CaseId>
+    <ClaimNumber>268</ClaimNumber>
+    <VIN>WDB2102811X009561</VIN>
+    <PlateNumber>Е689ТС93</PlateNumber>
+    <ManufacturerName>MERCEDES-BENZ [V] [R] [03]</ManufacturerName>
+    <ModelName>E-Class (W210/T210) 06/95-02/02 Сед./Универс [V] [M] [15]</ModelName>
+    <CreationDate>2013-06-23T21:25:25.673</CreationDate>
+  </TaskProxy>
+  <TaskProxy>
+    <TaskId>F1E7A322-A2BA-452E-DDBD-BDB30C7200D2</TaskId>
+    <CaseId>83CA7A46-E866-A969-20A8-68159B51571A</CaseId>
+    <ClaimNumber>266</ClaimNumber>
+    <VIN>XW8CA41Z5DK239928</VIN>
+    <PlateNumber>P564KO123</PlateNumber>
+    <ManufacturerName>SKODA [V] [56]</ManufacturerName>
+    <ModelName>Octavia II (1Z) 01/11- Сед./Универс [V] [M] [21]</ModelName>
+    <CreationDate>2013-06-23T11:47:57.000</CreationDate>
+    <VehicleOwnerFirstName>М.</VehicleOwnerFirstName>
+    <VehicleOwnerLastName>Афиногенова</VehicleOwnerLastName>
+  </TaskProxy>
+  <TaskProxy>
+    <TaskId>E0B7E586-75CF-6ADE-7C5A-ABCCE242AAFF</TaskId>
+    <CaseId>F0D8E1DA-A0A7-BE38-84CF-0CF31E8943E3</CaseId>
+    <ClaimNumber>264</ClaimNumber>
+    <VIN>Z94CB41ABCR034157</VIN>
+    <PlateNumber>У146ВС123</PlateNumber>
+    <ManufacturerName>KIA [R] [28]</ManufacturerName>
+    <ModelName>RIO III ( Rus) 06/11-  [34]</ModelName>
+    <CreationDate>2013-06-21T10:34:56.737</CreationDate>
+  </TaskProxy>
+  <TaskProxy>
+    <TaskId>04C9F9F4-4C2D-7DF5-9662-60322E40B067</TaskId>
+    <CaseId>1BBC162D-774A-9347-4983-8BF15DD352E2</CaseId>
+    <ClaimNumber>258</ClaimNumber>
+    <VIN>XTA21074021480690</VIN>
+    <PlateNumber>С515ХЕ23</PlateNumber>
+    <ManufacturerName>LADA [R] [09]</ManufacturerName>
+    <ModelName>2107 (2107) 01/82-  [25]</ModelName>
+    <CreationDate>2013-06-20T11:19:28.634</CreationDate>
+  </TaskProxy>
+  <TaskProxy>
+    <TaskId>AEF3DB2E-81CB-52E8-3A31-72490929AEB6</TaskId>
+    <CaseId>E74A7EDF-63B9-9C9E-30CB-6CFB85A0FAD9</CaseId>
+    <ClaimNumber>260</ClaimNumber>
+    <VIN>WVWZZZ3CZ9E554095</VIN>
+    <PlateNumber>M500XT93</PlateNumber>
+    <ManufacturerName>VW [V] [06]</ManufacturerName>
+    <ModelName>Passat CC (Type 357/ 3C) 06/08-  [V] [M] [AP]</ModelName>
+    <CreationDate>2013-06-20T10:07:07.008</CreationDate>
+  </TaskProxy>
+  <TaskProxy>
+    <TaskId>F7B084E1-1AE4-2923-0B41-DAA88EF730EC</TaskId>
+    <CaseId>F7B037B0-D217-A450-8991-ABD8234A134E</CaseId>
+    <ClaimNumber>255</ClaimNumber>
+    <VIN>WVWZZZ1KZBP060270</VIN>
+    <PlateNumber>STDD300</PlateNumber>
+    <ManufacturerName>VW [V] [06]</ManufacturerName>
+    <ModelName>Golf VI (5K) 10/08-  [V] [M] [AF]</ModelName>
+    <CreationDate>2013-06-20T08:04:03.983</CreationDate>
+  </TaskProxy>
+  <TaskProxy>
+    <TaskId>5DAFFF10-DE47-19AC-1A7A-E3C71DE97B45</TaskId>
+    <CaseId>71B926DD-48EB-E878-4963-391A84E5273A</CaseId>
+    <ClaimNumber>257</ClaimNumber>
+    <VIN>4JGBB86EX6A024762</VIN>
+    <PlateNumber>X001AO123</PlateNumber>
+    <ManufacturerName>MERCEDES-BENZ [V] [R] [03]</ManufacturerName>
+    <ModelName>M-Class (W164) 07/05-  [V] [M] [46]</ModelName>
+    <CreationDate>2013-06-19T18:32:55.108</CreationDate>
+  </TaskProxy>
+  <TaskProxy>
+    <TaskId>E3D108B1-17C5-DDCC-24F4-C7726761F7C4</TaskId>
+    <CaseId>8941214B-D19E-0C74-21CC-A3572860CDCD</CaseId>
+    <ClaimNumber>145</ClaimNumber>
+    <VIN>MALBC51CBBM204560</VIN>
+    <PlateNumber>M770EY93</PlateNumber>
+    <ManufacturerName>HYUNDAI [30]</ManufacturerName>
+    <ModelName>i20 (Getz Replacement) (PB) 03/09-  [33]</ModelName>
+    <CreationDate>2013-06-15T09:38:21.603</CreationDate>
+  </TaskProxy>
+  <TaskProxy>
+    <TaskId>8614D7B5-453F-6EE6-4B8D-51E623733260</TaskId>
+    <CaseId>F4A8C286-0024-1A8B-BD1F-3DC70D8AD271</CaseId>
+    <ClaimNumber>161</ClaimNumber>
+    <VIN>XUFJF696JC3014813</VIN>
+    <PlateNumber>А138ВС123</PlateNumber>
+    <ManufacturerName>CHEVROLET / DAEWOO [14]</ManufacturerName>
+    <ModelName>Cruze (KL1J) 05/09-  [M] [1C]</ModelName>
+    <CreationDate>2013-06-10T12:02:52.545</CreationDate>
+  </TaskProxy>
+  <Size>16</Size>
+</TaskProxyList>

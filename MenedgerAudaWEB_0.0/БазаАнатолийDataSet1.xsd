@@ -1,0 +1,790 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="БазаАнатолийDataSet1" targetNamespace="http://tempuri.org/БазаАнатолийDataSet1.xsd" xmlns:mstns="http://tempuri.org/БазаАнатолийDataSet1.xsd" xmlns="http://tempuri.org/БазаАнатолийDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="БазаАнатолийConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="БазаАнатолийConnectionString1 (Settings)" PropertyReference="ApplicationSettings.MenedgerAudaWEB_0._0.Properties.Settings.GlobalReference.Default.БазаАнатолийConnectionString1" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="База ИПTableAdapter" GeneratorDataComponentClassName="База_ИПTableAdapter" Name="База ИП" UserDataComponentName="База ИПTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="БазаАнатолийConnectionString1 (Settings)" DbObjectName="База ИП" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM `База ИП` WHERE ((`Код1` = ?) AND ((? = 1 AND `№/№` IS NULL) OR (`№/№` = ?)) AND ((? = 1 AND `Калькуляция №` IS NULL) OR (`Калькуляция №` = ?)) AND ((? = 1 AND `Дата осмотра` IS NULL) OR (`Дата осмотра` = ?)) AND ((? = 1 AND `Модель  ТС` IS NULL) OR (`Модель  ТС` = ?)) AND ((? = 1 AND `VIN-CODE` IS NULL) OR (`VIN-CODE` = ?)) AND ((? = 1 AND `Год выпуска` IS NULL) OR (`Год выпуска` = ?)) AND ((? = 1 AND `Гос рег знак` IS NULL) OR (`Гос рег знак` = ?)) AND ((? = 1 AND `Цвет ТС` IS NULL) OR (`Цвет ТС` = ?)) AND ((? = 1 AND `№ Техпаспорта` IS NULL) OR (`№ Техпаспорта` = ?)) AND ((? = 1 AND `№ кузова` IS NULL) OR (`№ кузова` = ?)) AND ((? = 1 AND `№ рамы` IS NULL) OR (`№ рамы` = ?)) AND ((? = 1 AND `№ шассси` IS NULL) OR (`№ шассси` = ?)) AND ((? = 1 AND `№ двигателя` IS NULL) OR (`№ двигателя` = ?)) AND ((? = 1 AND `Пробег` IS NULL) OR (`Пробег` = ?)) AND ((? = 1 AND `ФИО собственника` IS NULL) OR (`ФИО собственника` = ?)) AND ((? = 1 AND `Адрес собственника` IS NULL) OR (`Адрес собственника` = ?)) AND ((? = 1 AND `Заказчик оценки` IS NULL) OR (`Заказчик оценки` = ?)) AND ((? = 1 AND `Адрес заказчика` IS NULL) OR (`Адрес заказчика` = ?)) AND ((? = 1 AND `Дата оценки` IS NULL) OR (`Дата оценки` = ?)) AND ((? = 1 AND `Дата отчета` IS NULL) OR (`Дата отчета` = ?)) AND ((? = 1 AND `Сумма ущерба без износа` IS NULL) OR (`Сумма ущерба без износа` = ?)) AND ((? = 1 AND `Сумма ущерба` IS NULL) OR (`Сумма ущерба` = ?)) AND ((? = 1 AND `УТС` IS NULL) OR (`УТС` = ?)) AND ((? = 1 AND `Рыночная стоимость` IS NULL) OR (`Рыночная стоимость` = ?)) AND ((? = 1 AND `Страховая компания` IS NULL) OR (`Страховая компания` = ?)) AND ((? = 1 AND `Сумма оплаты` IS NULL) OR (`Сумма оплаты` = ?)) AND ((? = 1 AND `Номер квитанции` IS NULL) OR (`Номер квитанции` = ?)) AND ((? = 1 AND `Дата квитанции` IS NULL) OR (`Дата квитанции` = ?)) AND ((? = 1 AND `Сумма годных остатков` IS NULL) OR (`Сумма годных остатков` = ?)) AND ((? = 1 AND `Свидетельство о регистрации` IS NULL) OR (`Свидетельство о регистрации` = ?)) AND ((? = 1 AND `Право требования сУТС без износа` IS NULL) OR (`Право требования сУТС без износа` = ?)) AND ((? = 1 AND `Право требования с ENC с износом` IS NULL) OR (`Право требования с ENC с износом` = ?)) AND ((? = 1 AND `Дата ДТП` IS NULL) OR (`Дата ДТП` = ?)) AND ((? = 1 AND `Дата договора` IS NULL) OR (`Дата договора` = ?)) AND ((? = 1 AND `Поле48` IS NULL) OR (`Поле48` = ?)) AND ((? = 1 AND `Поле49` IS NULL) OR (`Поле49` = ?)) AND ((? = 1 AND `Поле50` IS NULL) OR (`Поле50` = ?)) AND ((? = 1 AND `Поле51` IS NULL) OR (`Поле51` = ?)) AND ((? = 1 AND `Поле52` IS NULL) OR (`Поле52` = ?)) AND ((? = 1 AND `Поле53` IS NULL) OR (`Поле53` = ?)) AND ((? = 1 AND `Поле54` IS NULL) OR (`Поле54` = ?)) AND ((? = 1 AND `Поле55` IS NULL) OR (`Поле55` = ?)) AND ((? = 1 AND `Поле56` IS NULL) OR (`Поле56` = ?)) AND ((? = 1 AND `Поле57` IS NULL) OR (`Поле57` = ?)) AND ((? = 1 AND `Поле58` IS NULL) OR (`Поле58` = ?)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Original_Код1" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Код1" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_№/№" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="№/№" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="Original_№/№" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="№/№" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Калькуляция_№" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Калькуляция №" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Калькуляция_№" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Калькуляция №" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Дата_осмотра" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Дата осмотра" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="Original_Дата_осмотра" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="Дата осмотра" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Модель__ТС" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Модель  ТС" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Модель__ТС" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Модель  ТС" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_VIN-CODE" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="VIN-CODE" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_VIN-CODE" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="VIN-CODE" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Год_выпуска" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Год выпуска" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Год_выпуска" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Год выпуска" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Гос_рег_знак" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Гос рег знак" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Гос_рег_знак" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Гос рег знак" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Цвет_ТС" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Цвет ТС" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Цвет_ТС" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Цвет ТС" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_№_Техпаспорта" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="№ Техпаспорта" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_№_Техпаспорта" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="№ Техпаспорта" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_№_кузова" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="№ кузова" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_№_кузова" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="№ кузова" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_№_рамы" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="№ рамы" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_№_рамы" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="№ рамы" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_№_шассси" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="№ шассси" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_№_шассси" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="№ шассси" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_№_двигателя" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="№ двигателя" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_№_двигателя" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="№ двигателя" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Пробег" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Пробег" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Пробег" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Пробег" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_ФИО_собственника" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="ФИО собственника" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_ФИО_собственника" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ФИО собственника" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Адрес_собственника" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Адрес собственника" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Адрес_собственника" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Адрес собственника" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Заказчик_оценки" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Заказчик оценки" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Заказчик_оценки" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Заказчик оценки" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Адрес_заказчика" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Адрес заказчика" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Адрес_заказчика" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Адрес заказчика" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Дата_оценки" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Дата оценки" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="Original_Дата_оценки" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="Дата оценки" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Дата_отчета" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Дата отчета" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="Original_Дата_отчета" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="Дата отчета" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Сумма_ущерба_без_износа" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Сумма ущерба без износа" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Сумма_ущерба_без_износа" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Сумма ущерба без износа" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Сумма_ущерба" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Сумма ущерба" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Сумма_ущерба" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Сумма ущерба" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_УТС" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="УТС" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_УТС" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="УТС" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Рыночная_стоимость" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Рыночная стоимость" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Рыночная_стоимость" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Рыночная стоимость" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Страховая_компания" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Страховая компания" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Страховая_компания" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Страховая компания" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Сумма_оплаты" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Сумма оплаты" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Сумма_оплаты" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Сумма оплаты" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Номер_квитанции" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Номер квитанции" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Номер_квитанции" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Номер квитанции" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Дата_квитанции" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Дата квитанции" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Дата_квитанции" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Дата квитанции" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Сумма_годных_остатков" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Сумма годных остатков" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Сумма_годных_остатков" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Сумма годных остатков" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Свидетельство_о_регистрации" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Свидетельство о регистрации" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Свидетельство_о_регистрации" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Свидетельство о регистрации" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Право_требования_сУТС_без_износа" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Право требования сУТС без износа" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Original_Право_требования_сУТС_без_износа" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Право требования сУТС без износа" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Право_требования_с_ENC_с_износом" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Право требования с ENC с износом" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Original_Право_требования_с_ENC_с_износом" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Право требования с ENC с износом" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Дата_ДТП" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Дата ДТП" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Дата_ДТП" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Дата ДТП" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Дата_договора" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Дата договора" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Дата_договора" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Дата договора" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Поле48" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Поле48" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Поле48" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле48" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Поле49" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Поле49" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Поле49" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле49" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Поле50" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Поле50" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Поле50" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле50" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Поле51" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Поле51" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Поле51" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле51" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Поле52" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Поле52" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Поле52" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле52" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Поле53" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Поле53" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Поле53" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле53" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Поле54" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Поле54" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Поле54" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле54" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Поле55" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Поле55" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Поле55" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле55" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Поле56" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Поле56" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Поле56" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле56" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Поле57" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Поле57" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Поле57" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле57" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Поле58" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Поле58" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Поле58" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле58" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO `База ИП` (`№/№`, `Калькуляция №`, `Дата осмотра`, `Модель  ТС`, `VIN-CODE`, `Год выпуска`, `Гос рег знак`, `Цвет ТС`, `№ Техпаспорта`, `№ кузова`, `№ рамы`, `№ шассси`, `№ двигателя`, `Пробег`, `ФИО собственника`, `Адрес собственника`, `Заказчик оценки`, `Адрес заказчика`, `Дата оценки`, `Дата отчета`, `Сумма ущерба без износа`, `Сумма ущерба`, `УТС`, `Рыночная стоимость`, `Страховая компания`, `Сумма оплаты`, `Номер квитанции`, `Дата квитанции`, `Сумма годных остатков`, `Свидетельство о регистрации`, `Право требования сУТС без износа`, `Право требования с ENC с износом`, `Дата ДТП`, `Дата договора`, `Поле48`, `Поле49`, `Поле50`, `Поле51`, `Поле52`, `Поле53`, `Поле54`, `Поле55`, `Поле56`, `Поле57`, `Поле58`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="№/№" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="№/№" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Калькуляция_№" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Калькуляция №" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="Дата_осмотра" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="Дата осмотра" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Модель__ТС" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Модель  ТС" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="VIN-CODE" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="VIN-CODE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Год_выпуска" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Год выпуска" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Гос_рег_знак" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Гос рег знак" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Цвет_ТС" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Цвет ТС" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="№_Техпаспорта" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="№ Техпаспорта" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="№_кузова" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="№ кузова" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="№_рамы" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="№ рамы" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="№_шассси" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="№ шассси" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="№_двигателя" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="№ двигателя" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Пробег" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Пробег" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="ФИО_собственника" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ФИО собственника" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Адрес_собственника" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Адрес собственника" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Заказчик_оценки" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Заказчик оценки" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Адрес_заказчика" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Адрес заказчика" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="Дата_оценки" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="Дата оценки" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="Дата_отчета" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="Дата отчета" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Сумма_ущерба_без_износа" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Сумма ущерба без износа" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Сумма_ущерба" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Сумма ущерба" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="УТС" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="УТС" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Рыночная_стоимость" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Рыночная стоимость" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Страховая_компания" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Страховая компания" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Сумма_оплаты" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Сумма оплаты" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Номер_квитанции" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Номер квитанции" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Дата_квитанции" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Дата квитанции" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Сумма_годных_остатков" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Сумма годных остатков" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Свидетельство_о_регистрации" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Свидетельство о регистрации" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Право_требования_сУТС_без_износа" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Право требования сУТС без износа" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Право_требования_с_ENC_с_износом" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Право требования с ENC с износом" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Дата_ДТП" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Дата ДТП" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Дата_договора" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Дата договора" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Поле48" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле48" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Поле49" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле49" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Поле50" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле50" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Поле51" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле51" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Поле52" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле52" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Поле53" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле53" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Поле54" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле54" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Поле55" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле55" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Поле56" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле56" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Поле57" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле57" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Поле58" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле58" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Код1, [№/№], [Калькуляция №], [Дата осмотра], [Модель  ТС], [VIN-CODE], [Год выпуска], [Гос рег знак], [Цвет ТС], [№ Техпаспорта], [№ кузова], [№ рамы], [№ шассси], [№ двигателя], Пробег, [ФИО собственника], [Адрес собственника], [Заказчик оценки], [Адрес заказчика], [Дата оценки], [Дата отчета], [Сумма ущерба без износа], [Сумма ущерба], УТС, [Рыночная стоимость], [Страховая компания], [Сумма оплаты], [Номер квитанции], [Дата квитанции], [Сумма годных остатков], [Свидетельство о регистрации], [Право требования сУТС без износа], [Право требования с ENC с износом], [Дата ДТП], [Дата договора], Поле48, Поле49, Поле50, Поле51, Поле52, Поле53, Поле54, Поле55, Поле56, Поле57, Поле58 FROM [База ИП]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE `База ИП` SET `№/№` = ?, `Калькуляция №` = ?, `Дата осмотра` = ?, `Модель  ТС` = ?, `VIN-CODE` = ?, `Год выпуска` = ?, `Гос рег знак` = ?, `Цвет ТС` = ?, `№ Техпаспорта` = ?, `№ кузова` = ?, `№ рамы` = ?, `№ шассси` = ?, `№ двигателя` = ?, `Пробег` = ?, `ФИО собственника` = ?, `Адрес собственника` = ?, `Заказчик оценки` = ?, `Адрес заказчика` = ?, `Дата оценки` = ?, `Дата отчета` = ?, `Сумма ущерба без износа` = ?, `Сумма ущерба` = ?, `УТС` = ?, `Рыночная стоимость` = ?, `Страховая компания` = ?, `Сумма оплаты` = ?, `Номер квитанции` = ?, `Дата квитанции` = ?, `Сумма годных остатков` = ?, `Свидетельство о регистрации` = ?, `Право требования сУТС без износа` = ?, `Право требования с ENC с износом` = ?, `Дата ДТП` = ?, `Дата договора` = ?, `Поле48` = ?, `Поле49` = ?, `Поле50` = ?, `Поле51` = ?, `Поле52` = ?, `Поле53` = ?, `Поле54` = ?, `Поле55` = ?, `Поле56` = ?, `Поле57` = ?, `Поле58` = ? WHERE ((`Код1` = ?) AND ((? = 1 AND `№/№` IS NULL) OR (`№/№` = ?)) AND ((? = 1 AND `Калькуляция №` IS NULL) OR (`Калькуляция №` = ?)) AND ((? = 1 AND `Дата осмотра` IS NULL) OR (`Дата осмотра` = ?)) AND ((? = 1 AND `Модель  ТС` IS NULL) OR (`Модель  ТС` = ?)) AND ((? = 1 AND `VIN-CODE` IS NULL) OR (`VIN-CODE` = ?)) AND ((? = 1 AND `Год выпуска` IS NULL) OR (`Год выпуска` = ?)) AND ((? = 1 AND `Гос рег знак` IS NULL) OR (`Гос рег знак` = ?)) AND ((? = 1 AND `Цвет ТС` IS NULL) OR (`Цвет ТС` = ?)) AND ((? = 1 AND `№ Техпаспорта` IS NULL) OR (`№ Техпаспорта` = ?)) AND ((? = 1 AND `№ кузова` IS NULL) OR (`№ кузова` = ?)) AND ((? = 1 AND `№ рамы` IS NULL) OR (`№ рамы` = ?)) AND ((? = 1 AND `№ шассси` IS NULL) OR (`№ шассси` = ?)) AND ((? = 1 AND `№ двигателя` IS NULL) OR (`№ двигателя` = ?)) AND ((? = 1 AND `Пробег` IS NULL) OR (`Пробег` = ?)) AND ((? = 1 AND `ФИО собственника` IS NULL) OR (`ФИО собственника` = ?)) AND ((? = 1 AND `Адрес собственника` IS NULL) OR (`Адрес собственника` = ?)) AND ((? = 1 AND `Заказчик оценки` IS NULL) OR (`Заказчик оценки` = ?)) AND ((? = 1 AND `Адрес заказчика` IS NULL) OR (`Адрес заказчика` = ?)) AND ((? = 1 AND `Дата оценки` IS NULL) OR (`Дата оценки` = ?)) AND ((? = 1 AND `Дата отчета` IS NULL) OR (`Дата отчета` = ?)) AND ((? = 1 AND `Сумма ущерба без износа` IS NULL) OR (`Сумма ущерба без износа` = ?)) AND ((? = 1 AND `Сумма ущерба` IS NULL) OR (`Сумма ущерба` = ?)) AND ((? = 1 AND `УТС` IS NULL) OR (`УТС` = ?)) AND ((? = 1 AND `Рыночная стоимость` IS NULL) OR (`Рыночная стоимость` = ?)) AND ((? = 1 AND `Страховая компания` IS NULL) OR (`Страховая компания` = ?)) AND ((? = 1 AND `Сумма оплаты` IS NULL) OR (`Сумма оплаты` = ?)) AND ((? = 1 AND `Номер квитанции` IS NULL) OR (`Номер квитанции` = ?)) AND ((? = 1 AND `Дата квитанции` IS NULL) OR (`Дата квитанции` = ?)) AND ((? = 1 AND `Сумма годных остатков` IS NULL) OR (`Сумма годных остатков` = ?)) AND ((? = 1 AND `Свидетельство о регистрации` IS NULL) OR (`Свидетельство о регистрации` = ?)) AND ((? = 1 AND `Право требования сУТС без износа` IS NULL) OR (`Право требования сУТС без износа` = ?)) AND ((? = 1 AND `Право требования с ENC с износом` IS NULL) OR (`Право требования с ENC с износом` = ?)) AND ((? = 1 AND `Дата ДТП` IS NULL) OR (`Дата ДТП` = ?)) AND ((? = 1 AND `Дата договора` IS NULL) OR (`Дата договора` = ?)) AND ((? = 1 AND `Поле48` IS NULL) OR (`Поле48` = ?)) AND ((? = 1 AND `Поле49` IS NULL) OR (`Поле49` = ?)) AND ((? = 1 AND `Поле50` IS NULL) OR (`Поле50` = ?)) AND ((? = 1 AND `Поле51` IS NULL) OR (`Поле51` = ?)) AND ((? = 1 AND `Поле52` IS NULL) OR (`Поле52` = ?)) AND ((? = 1 AND `Поле53` IS NULL) OR (`Поле53` = ?)) AND ((? = 1 AND `Поле54` IS NULL) OR (`Поле54` = ?)) AND ((? = 1 AND `Поле55` IS NULL) OR (`Поле55` = ?)) AND ((? = 1 AND `Поле56` IS NULL) OR (`Поле56` = ?)) AND ((? = 1 AND `Поле57` IS NULL) OR (`Поле57` = ?)) AND ((? = 1 AND `Поле58` IS NULL) OR (`Поле58` = ?)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="№/№" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="№/№" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Калькуляция_№" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Калькуляция №" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="Дата_осмотра" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="Дата осмотра" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Модель__ТС" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Модель  ТС" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="VIN-CODE" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="VIN-CODE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Год_выпуска" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Год выпуска" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Гос_рег_знак" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Гос рег знак" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Цвет_ТС" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Цвет ТС" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="№_Техпаспорта" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="№ Техпаспорта" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="№_кузова" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="№ кузова" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="№_рамы" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="№ рамы" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="№_шассси" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="№ шассси" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="№_двигателя" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="№ двигателя" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Пробег" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Пробег" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="ФИО_собственника" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ФИО собственника" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Адрес_собственника" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Адрес собственника" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Заказчик_оценки" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Заказчик оценки" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Адрес_заказчика" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Адрес заказчика" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="Дата_оценки" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="Дата оценки" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="Дата_отчета" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="Дата отчета" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Сумма_ущерба_без_износа" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Сумма ущерба без износа" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Сумма_ущерба" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Сумма ущерба" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="УТС" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="УТС" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Рыночная_стоимость" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Рыночная стоимость" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Страховая_компания" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Страховая компания" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Сумма_оплаты" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Сумма оплаты" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Номер_квитанции" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Номер квитанции" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Дата_квитанции" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Дата квитанции" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Сумма_годных_остатков" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Сумма годных остатков" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Свидетельство_о_регистрации" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Свидетельство о регистрации" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Право_требования_сУТС_без_износа" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Право требования сУТС без износа" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Право_требования_с_ENC_с_износом" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Право требования с ENC с износом" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Дата_ДТП" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Дата ДТП" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Дата_договора" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Дата договора" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Поле48" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле48" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Поле49" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле49" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Поле50" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле50" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Поле51" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле51" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Поле52" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле52" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Поле53" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле53" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Поле54" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле54" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Поле55" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле55" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Поле56" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле56" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Поле57" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле57" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Поле58" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле58" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Original_Код1" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Код1" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_№/№" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="№/№" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="Original_№/№" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="№/№" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Калькуляция_№" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Калькуляция №" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Калькуляция_№" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Калькуляция №" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Дата_осмотра" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Дата осмотра" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="Original_Дата_осмотра" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="Дата осмотра" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Модель__ТС" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Модель  ТС" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Модель__ТС" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Модель  ТС" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_VIN-CODE" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="VIN-CODE" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_VIN-CODE" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="VIN-CODE" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Год_выпуска" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Год выпуска" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Год_выпуска" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Год выпуска" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Гос_рег_знак" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Гос рег знак" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Гос_рег_знак" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Гос рег знак" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Цвет_ТС" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Цвет ТС" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Цвет_ТС" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Цвет ТС" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_№_Техпаспорта" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="№ Техпаспорта" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_№_Техпаспорта" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="№ Техпаспорта" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_№_кузова" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="№ кузова" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_№_кузова" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="№ кузова" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_№_рамы" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="№ рамы" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_№_рамы" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="№ рамы" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_№_шассси" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="№ шассси" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_№_шассси" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="№ шассси" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_№_двигателя" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="№ двигателя" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_№_двигателя" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="№ двигателя" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Пробег" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Пробег" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Пробег" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Пробег" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_ФИО_собственника" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="ФИО собственника" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_ФИО_собственника" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ФИО собственника" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Адрес_собственника" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Адрес собственника" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Адрес_собственника" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Адрес собственника" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Заказчик_оценки" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Заказчик оценки" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Заказчик_оценки" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Заказчик оценки" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Адрес_заказчика" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Адрес заказчика" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Адрес_заказчика" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Адрес заказчика" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Дата_оценки" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Дата оценки" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="Original_Дата_оценки" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="Дата оценки" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Дата_отчета" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Дата отчета" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="Original_Дата_отчета" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="Дата отчета" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Сумма_ущерба_без_износа" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Сумма ущерба без износа" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Сумма_ущерба_без_износа" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Сумма ущерба без износа" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Сумма_ущерба" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Сумма ущерба" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Сумма_ущерба" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Сумма ущерба" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_УТС" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="УТС" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_УТС" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="УТС" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Рыночная_стоимость" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Рыночная стоимость" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Рыночная_стоимость" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Рыночная стоимость" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Страховая_компания" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Страховая компания" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Страховая_компания" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Страховая компания" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Сумма_оплаты" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Сумма оплаты" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Сумма_оплаты" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Сумма оплаты" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Номер_квитанции" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Номер квитанции" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Номер_квитанции" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Номер квитанции" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Дата_квитанции" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Дата квитанции" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Дата_квитанции" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Дата квитанции" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Сумма_годных_остатков" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Сумма годных остатков" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Сумма_годных_остатков" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Сумма годных остатков" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Свидетельство_о_регистрации" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Свидетельство о регистрации" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Свидетельство_о_регистрации" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Свидетельство о регистрации" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Право_требования_сУТС_без_износа" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Право требования сУТС без износа" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Original_Право_требования_сУТС_без_износа" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Право требования сУТС без износа" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Право_требования_с_ENC_с_износом" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Право требования с ENC с износом" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Original_Право_требования_с_ENC_с_износом" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Право требования с ENC с износом" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Дата_ДТП" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Дата ДТП" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Дата_ДТП" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Дата ДТП" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Дата_договора" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Дата договора" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Дата_договора" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Дата договора" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Поле48" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Поле48" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Поле48" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле48" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Поле49" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Поле49" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Поле49" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле49" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Поле50" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Поле50" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Поле50" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле50" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Поле51" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Поле51" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Поле51" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле51" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Поле52" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Поле52" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Поле52" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле52" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Поле53" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Поле53" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Поле53" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле53" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Поле54" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Поле54" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Поле54" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле54" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Поле55" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Поле55" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Поле55" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле55" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Поле56" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Поле56" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Поле56" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле56" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Поле57" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Поле57" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Поле57" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле57" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Поле58" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Поле58" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Поле58" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Поле58" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Код1" DataSetColumn="Код1" />
+              <Mapping SourceColumn="№/№" DataSetColumn="№/№" />
+              <Mapping SourceColumn="Калькуляция №" DataSetColumn="Калькуляция №" />
+              <Mapping SourceColumn="Дата осмотра" DataSetColumn="Дата осмотра" />
+              <Mapping SourceColumn="Модель  ТС" DataSetColumn="Модель  ТС" />
+              <Mapping SourceColumn="VIN-CODE" DataSetColumn="VIN-CODE" />
+              <Mapping SourceColumn="Год выпуска" DataSetColumn="Год выпуска" />
+              <Mapping SourceColumn="Гос рег знак" DataSetColumn="Гос рег знак" />
+              <Mapping SourceColumn="Цвет ТС" DataSetColumn="Цвет ТС" />
+              <Mapping SourceColumn="№ Техпаспорта" DataSetColumn="№ Техпаспорта" />
+              <Mapping SourceColumn="№ кузова" DataSetColumn="№ кузова" />
+              <Mapping SourceColumn="№ рамы" DataSetColumn="№ рамы" />
+              <Mapping SourceColumn="№ шассси" DataSetColumn="№ шассси" />
+              <Mapping SourceColumn="№ двигателя" DataSetColumn="№ двигателя" />
+              <Mapping SourceColumn="Пробег" DataSetColumn="Пробег" />
+              <Mapping SourceColumn="ФИО собственника" DataSetColumn="ФИО собственника" />
+              <Mapping SourceColumn="Адрес собственника" DataSetColumn="Адрес собственника" />
+              <Mapping SourceColumn="Заказчик оценки" DataSetColumn="Заказчик оценки" />
+              <Mapping SourceColumn="Адрес заказчика" DataSetColumn="Адрес заказчика" />
+              <Mapping SourceColumn="Дата оценки" DataSetColumn="Дата оценки" />
+              <Mapping SourceColumn="Дата отчета" DataSetColumn="Дата отчета" />
+              <Mapping SourceColumn="Сумма ущерба без износа" DataSetColumn="Сумма ущерба без износа" />
+              <Mapping SourceColumn="Сумма ущерба" DataSetColumn="Сумма ущерба" />
+              <Mapping SourceColumn="УТС" DataSetColumn="УТС" />
+              <Mapping SourceColumn="Рыночная стоимость" DataSetColumn="Рыночная стоимость" />
+              <Mapping SourceColumn="Страховая компания" DataSetColumn="Страховая компания" />
+              <Mapping SourceColumn="Сумма оплаты" DataSetColumn="Сумма оплаты" />
+              <Mapping SourceColumn="Номер квитанции" DataSetColumn="Номер квитанции" />
+              <Mapping SourceColumn="Дата квитанции" DataSetColumn="Дата квитанции" />
+              <Mapping SourceColumn="Сумма годных остатков" DataSetColumn="Сумма годных остатков" />
+              <Mapping SourceColumn="Свидетельство о регистрации" DataSetColumn="Свидетельство о регистрации" />
+              <Mapping SourceColumn="Право требования сУТС без износа" DataSetColumn="Право требования сУТС без износа" />
+              <Mapping SourceColumn="Право требования с ENC с износом" DataSetColumn="Право требования с ENC с износом" />
+              <Mapping SourceColumn="Дата ДТП" DataSetColumn="Дата ДТП" />
+              <Mapping SourceColumn="Дата договора" DataSetColumn="Дата договора" />
+              <Mapping SourceColumn="Поле48" DataSetColumn="Поле48" />
+              <Mapping SourceColumn="Поле49" DataSetColumn="Поле49" />
+              <Mapping SourceColumn="Поле50" DataSetColumn="Поле50" />
+              <Mapping SourceColumn="Поле51" DataSetColumn="Поле51" />
+              <Mapping SourceColumn="Поле52" DataSetColumn="Поле52" />
+              <Mapping SourceColumn="Поле53" DataSetColumn="Поле53" />
+              <Mapping SourceColumn="Поле54" DataSetColumn="Поле54" />
+              <Mapping SourceColumn="Поле55" DataSetColumn="Поле55" />
+              <Mapping SourceColumn="Поле56" DataSetColumn="Поле56" />
+              <Mapping SourceColumn="Поле57" DataSetColumn="Поле57" />
+              <Mapping SourceColumn="Поле58" DataSetColumn="Поле58" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Параметры ТСTableAdapter" GeneratorDataComponentClassName="Параметры_ТСTableAdapter" Name="Параметры ТС" UserDataComponentName="Параметры ТСTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="БазаАнатолийConnectionString1 (Settings)" DbObjectName="Параметры ТС" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM `Параметры ТС` WHERE ((`Код` = ?) AND ((? = 1 AND `Марка` IS NULL) OR (`Марка` = ?)) AND ((? = 1 AND `Модель` IS NULL) OR (`Модель` = ?)) AND ((? = 1 AND `Пробег` IS NULL) OR (`Пробег` = ?)) AND ((? = 1 AND `Год выпуска` IS NULL) OR (`Год выпуска` = ?)) AND ((? = 1 AND `Идентификауционный номер (VIN)` IS NULL) OR (`Идентификауционный номер (VIN)` = ?)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Original_Код" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Код" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Марка" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Марка" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Марка" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Марка" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Модель" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Модель" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Модель" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Модель" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Пробег" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Пробег" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Пробег" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Пробег" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Год_выпуска" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Год выпуска" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Год_выпуска" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Год выпуска" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Идентификауционный_номер_(VIN)" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Идентификауционный номер (VIN)" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Идентификауционный_номер_(VIN)" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Идентификауционный номер (VIN)" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO `Параметры ТС` (`Марка`, `Модель`, `Пробег`, `Год выпуска`, `Идентификауционный номер (VIN)`) VALUES (?, ?, ?, ?, ?)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Марка" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Марка" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Модель" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Модель" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Пробег" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Пробег" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Год_выпуска" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Год выпуска" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Идентификауционный_номер_(VIN)" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Идентификауционный номер (VIN)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Код, Марка, Модель, Пробег, [Год выпуска], [Идентификауционный номер (VIN)] FROM [Параметры ТС]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE `Параметры ТС` SET `Марка` = ?, `Модель` = ?, `Пробег` = ?, `Год выпуска` = ?, `Идентификауционный номер (VIN)` = ? WHERE ((`Код` = ?) AND ((? = 1 AND `Марка` IS NULL) OR (`Марка` = ?)) AND ((? = 1 AND `Модель` IS NULL) OR (`Модель` = ?)) AND ((? = 1 AND `Пробег` IS NULL) OR (`Пробег` = ?)) AND ((? = 1 AND `Год выпуска` IS NULL) OR (`Год выпуска` = ?)) AND ((? = 1 AND `Идентификауционный номер (VIN)` IS NULL) OR (`Идентификауционный номер (VIN)` = ?)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Марка" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Марка" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Модель" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Модель" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Пробег" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Пробег" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Год_выпуска" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Год выпуска" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Идентификауционный_номер_(VIN)" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Идентификауционный номер (VIN)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Original_Код" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Код" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Марка" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Марка" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Марка" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Марка" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Модель" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Модель" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Модель" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Модель" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Пробег" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Пробег" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Пробег" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Пробег" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Год_выпуска" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Год выпуска" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Год_выпуска" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Год выпуска" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Идентификауционный_номер_(VIN)" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Идентификауционный номер (VIN)" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Идентификауционный_номер_(VIN)" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Идентификауционный номер (VIN)" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Код" DataSetColumn="Код" />
+              <Mapping SourceColumn="Марка" DataSetColumn="Марка" />
+              <Mapping SourceColumn="Модель" DataSetColumn="Модель" />
+              <Mapping SourceColumn="Пробег" DataSetColumn="Пробег" />
+              <Mapping SourceColumn="Год выпуска" DataSetColumn="Год выпуска" />
+              <Mapping SourceColumn="Идентификауционный номер (VIN)" DataSetColumn="Идентификауционный номер (VIN)" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="БазаАнатолийDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="БазаАнатолийDataSet1" msprop:Generator_UserDSName="БазаАнатолийDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="База_x0020_ИП" msprop:Generator_TableClassName="База_ИПDataTable" msprop:Generator_TableVarName="tableБаза_ИП" msprop:Generator_TablePropName="База_ИП" msprop:Generator_RowDeletingName="База_ИПRowDeleting" msprop:Generator_RowChangingName="База_ИПRowChanging" msprop:Generator_RowEvHandlerName="База_ИПRowChangeEventHandler" msprop:Generator_RowDeletedName="База_ИПRowDeleted" msprop:Generator_UserTableName="База ИП" msprop:Generator_RowChangedName="База_ИПRowChanged" msprop:Generator_RowEvArgName="База_ИПRowChangeEvent" msprop:Generator_RowClassName="База_ИПRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Код1" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnКод1" msprop:Generator_ColumnPropNameInRow="Код1" msprop:Generator_ColumnPropNameInTable="Код1Column" msprop:Generator_UserColumnName="Код1" type="xs:int" />
+              <xs:element name="_x2116__x002F__x2116_" msprop:Generator_ColumnVarNameInTable="_column___" msprop:Generator_ColumnPropNameInRow="____" msprop:Generator_ColumnPropNameInTable="____Column" msprop:Generator_UserColumnName="№/№" type="xs:double" minOccurs="0" />
+              <xs:element name="Калькуляция_x0020__x2116_" msprop:Generator_ColumnVarNameInTable="_columnКалькуляция__" msprop:Generator_ColumnPropNameInRow="_Калькуляция__" msprop:Generator_ColumnPropNameInTable="_Калькуляция__Column" msprop:Generator_UserColumnName="Калькуляция №" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Дата_x0020_осмотра" msprop:Generator_ColumnVarNameInTable="columnДата_осмотра" msprop:Generator_ColumnPropNameInRow="Дата_осмотра" msprop:Generator_ColumnPropNameInTable="Дата_осмотраColumn" msprop:Generator_UserColumnName="Дата осмотра" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Модель_x0020__x0020_ТС" msprop:Generator_ColumnVarNameInTable="columnМодель__ТС" msprop:Generator_ColumnPropNameInRow="Модель__ТС" msprop:Generator_ColumnPropNameInTable="Модель__ТСColumn" msprop:Generator_UserColumnName="Модель  ТС" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VIN-CODE" msprop:Generator_ColumnVarNameInTable="_columnVIN_CODE" msprop:Generator_ColumnPropNameInRow="_VIN_CODE" msprop:Generator_ColumnPropNameInTable="_VIN_CODEColumn" msprop:Generator_UserColumnName="VIN-CODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Год_x0020_выпуска" msprop:Generator_ColumnVarNameInTable="columnГод_выпуска" msprop:Generator_ColumnPropNameInRow="Год_выпуска" msprop:Generator_ColumnPropNameInTable="Год_выпускаColumn" msprop:Generator_UserColumnName="Год выпуска" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Гос_x0020_рег_x0020_знак" msprop:Generator_ColumnVarNameInTable="columnГос_рег_знак" msprop:Generator_ColumnPropNameInRow="Гос_рег_знак" msprop:Generator_ColumnPropNameInTable="Гос_рег_знакColumn" msprop:Generator_UserColumnName="Гос рег знак" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Цвет_x0020_ТС" msprop:Generator_ColumnVarNameInTable="columnЦвет_ТС" msprop:Generator_ColumnPropNameInRow="Цвет_ТС" msprop:Generator_ColumnPropNameInTable="Цвет_ТСColumn" msprop:Generator_UserColumnName="Цвет ТС" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="_x2116__x0020_Техпаспорта" msprop:Generator_ColumnVarNameInTable="_column__Техпаспорта" msprop:Generator_ColumnPropNameInRow="___Техпаспорта" msprop:Generator_ColumnPropNameInTable="___ТехпаспортаColumn" msprop:Generator_UserColumnName="№ Техпаспорта" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="_x2116__x0020_кузова" msprop:Generator_ColumnVarNameInTable="_column__кузова" msprop:Generator_ColumnPropNameInRow="___кузова" msprop:Generator_ColumnPropNameInTable="___кузоваColumn" msprop:Generator_UserColumnName="№ кузова" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="_x2116__x0020_рамы" msprop:Generator_ColumnVarNameInTable="_column__рамы" msprop:Generator_ColumnPropNameInRow="___рамы" msprop:Generator_ColumnPropNameInTable="___рамыColumn" msprop:Generator_UserColumnName="№ рамы" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="_x2116__x0020_шассси" msprop:Generator_ColumnVarNameInTable="_column__шассси" msprop:Generator_ColumnPropNameInRow="___шассси" msprop:Generator_ColumnPropNameInTable="___шасссиColumn" msprop:Generator_UserColumnName="№ шассси" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="_x2116__x0020_двигателя" msprop:Generator_ColumnVarNameInTable="_column__двигателя" msprop:Generator_ColumnPropNameInRow="___двигателя" msprop:Generator_ColumnPropNameInTable="___двигателяColumn" msprop:Generator_UserColumnName="№ двигателя" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Пробег" msprop:Generator_ColumnVarNameInTable="columnПробег" msprop:Generator_ColumnPropNameInRow="Пробег" msprop:Generator_ColumnPropNameInTable="ПробегColumn" msprop:Generator_UserColumnName="Пробег" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ФИО_x0020_собственника" msprop:Generator_ColumnVarNameInTable="columnФИО_собственника" msprop:Generator_ColumnPropNameInRow="ФИО_собственника" msprop:Generator_ColumnPropNameInTable="ФИО_собственникаColumn" msprop:Generator_UserColumnName="ФИО собственника" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Адрес_x0020_собственника" msprop:Generator_ColumnVarNameInTable="columnАдрес_собственника" msprop:Generator_ColumnPropNameInRow="Адрес_собственника" msprop:Generator_ColumnPropNameInTable="Адрес_собственникаColumn" msprop:Generator_UserColumnName="Адрес собственника" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Заказчик_x0020_оценки" msprop:Generator_ColumnVarNameInTable="columnЗаказчик_оценки" msprop:Generator_ColumnPropNameInRow="Заказчик_оценки" msprop:Generator_ColumnPropNameInTable="Заказчик_оценкиColumn" msprop:Generator_UserColumnName="Заказчик оценки" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Адрес_x0020_заказчика" msprop:Generator_ColumnVarNameInTable="columnАдрес_заказчика" msprop:Generator_ColumnPropNameInRow="Адрес_заказчика" msprop:Generator_ColumnPropNameInTable="Адрес_заказчикаColumn" msprop:Generator_UserColumnName="Адрес заказчика" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Дата_x0020_оценки" msprop:Generator_ColumnVarNameInTable="columnДата_оценки" msprop:Generator_ColumnPropNameInRow="Дата_оценки" msprop:Generator_ColumnPropNameInTable="Дата_оценкиColumn" msprop:Generator_UserColumnName="Дата оценки" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Дата_x0020_отчета" msprop:Generator_ColumnVarNameInTable="columnДата_отчета" msprop:Generator_ColumnPropNameInRow="Дата_отчета" msprop:Generator_ColumnPropNameInTable="Дата_отчетаColumn" msprop:Generator_UserColumnName="Дата отчета" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Сумма_x0020_ущерба_x0020_без_x0020_износа" msprop:Generator_ColumnVarNameInTable="columnСумма_ущерба_без_износа" msprop:Generator_ColumnPropNameInRow="Сумма_ущерба_без_износа" msprop:Generator_ColumnPropNameInTable="Сумма_ущерба_без_износаColumn" msprop:Generator_UserColumnName="Сумма ущерба без износа" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Сумма_x0020_ущерба" msprop:Generator_ColumnVarNameInTable="columnСумма_ущерба" msprop:Generator_ColumnPropNameInRow="Сумма_ущерба" msprop:Generator_ColumnPropNameInTable="Сумма_ущербаColumn" msprop:Generator_UserColumnName="Сумма ущерба" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="УТС" msprop:Generator_ColumnVarNameInTable="columnУТС" msprop:Generator_ColumnPropNameInRow="УТС" msprop:Generator_ColumnPropNameInTable="УТСColumn" msprop:Generator_UserColumnName="УТС" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Рыночная_x0020_стоимость" msprop:Generator_ColumnVarNameInTable="columnРыночная_стоимость" msprop:Generator_ColumnPropNameInRow="Рыночная_стоимость" msprop:Generator_ColumnPropNameInTable="Рыночная_стоимостьColumn" msprop:Generator_UserColumnName="Рыночная стоимость" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Страховая_x0020_компания" msprop:Generator_ColumnVarNameInTable="columnСтраховая_компания" msprop:Generator_ColumnPropNameInRow="Страховая_компания" msprop:Generator_ColumnPropNameInTable="Страховая_компанияColumn" msprop:Generator_UserColumnName="Страховая компания" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Сумма_x0020_оплаты" msprop:Generator_ColumnVarNameInTable="columnСумма_оплаты" msprop:Generator_ColumnPropNameInRow="Сумма_оплаты" msprop:Generator_ColumnPropNameInTable="Сумма_оплатыColumn" msprop:Generator_UserColumnName="Сумма оплаты" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Номер_x0020_квитанции" msprop:Generator_ColumnVarNameInTable="columnНомер_квитанции" msprop:Generator_ColumnPropNameInRow="Номер_квитанции" msprop:Generator_ColumnPropNameInTable="Номер_квитанцииColumn" msprop:Generator_UserColumnName="Номер квитанции" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Дата_x0020_квитанции" msprop:Generator_ColumnVarNameInTable="columnДата_квитанции" msprop:Generator_ColumnPropNameInRow="Дата_квитанции" msprop:Generator_ColumnPropNameInTable="Дата_квитанцииColumn" msprop:Generator_UserColumnName="Дата квитанции" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Сумма_x0020_годных_x0020_остатков" msprop:Generator_ColumnVarNameInTable="columnСумма_годных_остатков" msprop:Generator_ColumnPropNameInRow="Сумма_годных_остатков" msprop:Generator_ColumnPropNameInTable="Сумма_годных_остатковColumn" msprop:Generator_UserColumnName="Сумма годных остатков" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Свидетельство_x0020_о_x0020_регистрации" msprop:Generator_ColumnVarNameInTable="columnСвидетельство_о_регистрации" msprop:Generator_ColumnPropNameInRow="Свидетельство_о_регистрации" msprop:Generator_ColumnPropNameInTable="Свидетельство_о_регистрацииColumn" msprop:Generator_UserColumnName="Свидетельство о регистрации" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Право_x0020_требования_x0020_сУТС_x0020_без_x0020_износа" msprop:Generator_ColumnVarNameInTable="columnПраво_требования_сУТС_без_износа" msprop:Generator_ColumnPropNameInRow="Право_требования_сУТС_без_износа" msprop:Generator_ColumnPropNameInTable="Право_требования_сУТС_без_износаColumn" msprop:Generator_UserColumnName="Право требования сУТС без износа" type="xs:int" minOccurs="0" />
+              <xs:element name="Право_x0020_требования_x0020_с_x0020_ENC_x0020_с_x0020_износом" msprop:Generator_ColumnVarNameInTable="columnПраво_требования_с_ENC_с_износом" msprop:Generator_ColumnPropNameInRow="Право_требования_с_ENC_с_износом" msprop:Generator_ColumnPropNameInTable="Право_требования_с_ENC_с_износомColumn" msprop:Generator_UserColumnName="Право требования с ENC с износом" type="xs:int" minOccurs="0" />
+              <xs:element name="Дата_x0020_ДТП" msprop:Generator_ColumnVarNameInTable="columnДата_ДТП" msprop:Generator_ColumnPropNameInRow="Дата_ДТП" msprop:Generator_ColumnPropNameInTable="Дата_ДТПColumn" msprop:Generator_UserColumnName="Дата ДТП" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Дата_x0020_договора" msprop:Generator_ColumnVarNameInTable="columnДата_договора" msprop:Generator_ColumnPropNameInRow="Дата_договора" msprop:Generator_ColumnPropNameInTable="Дата_договораColumn" msprop:Generator_UserColumnName="Дата договора" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Поле48" msprop:Generator_ColumnVarNameInTable="columnПоле48" msprop:Generator_ColumnPropNameInRow="Поле48" msprop:Generator_ColumnPropNameInTable="Поле48Column" msprop:Generator_UserColumnName="Поле48" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Поле49" msprop:Generator_ColumnVarNameInTable="columnПоле49" msprop:Generator_ColumnPropNameInRow="Поле49" msprop:Generator_ColumnPropNameInTable="Поле49Column" msprop:Generator_UserColumnName="Поле49" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Поле50" msprop:Generator_ColumnVarNameInTable="columnПоле50" msprop:Generator_ColumnPropNameInRow="Поле50" msprop:Generator_ColumnPropNameInTable="Поле50Column" msprop:Generator_UserColumnName="Поле50" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Поле51" msprop:Generator_ColumnVarNameInTable="columnПоле51" msprop:Generator_ColumnPropNameInRow="Поле51" msprop:Generator_ColumnPropNameInTable="Поле51Column" msprop:Generator_UserColumnName="Поле51" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Поле52" msprop:Generator_ColumnVarNameInTable="columnПоле52" msprop:Generator_ColumnPropNameInRow="Поле52" msprop:Generator_ColumnPropNameInTable="Поле52Column" msprop:Generator_UserColumnName="Поле52" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Поле53" msprop:Generator_ColumnVarNameInTable="columnПоле53" msprop:Generator_ColumnPropNameInRow="Поле53" msprop:Generator_ColumnPropNameInTable="Поле53Column" msprop:Generator_UserColumnName="Поле53" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Поле54" msprop:Generator_ColumnVarNameInTable="columnПоле54" msprop:Generator_ColumnPropNameInRow="Поле54" msprop:Generator_ColumnPropNameInTable="Поле54Column" msprop:Generator_UserColumnName="Поле54" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Поле55" msprop:Generator_ColumnVarNameInTable="columnПоле55" msprop:Generator_ColumnPropNameInRow="Поле55" msprop:Generator_ColumnPropNameInTable="Поле55Column" msprop:Generator_UserColumnName="Поле55" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Поле56" msprop:Generator_ColumnVarNameInTable="columnПоле56" msprop:Generator_ColumnPropNameInRow="Поле56" msprop:Generator_ColumnPropNameInTable="Поле56Column" msprop:Generator_UserColumnName="Поле56" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Поле57" msprop:Generator_ColumnVarNameInTable="columnПоле57" msprop:Generator_ColumnPropNameInRow="Поле57" msprop:Generator_ColumnPropNameInTable="Поле57Column" msprop:Generator_UserColumnName="Поле57" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Поле58" msprop:Generator_ColumnVarNameInTable="columnПоле58" msprop:Generator_ColumnPropNameInRow="Поле58" msprop:Generator_ColumnPropNameInTable="Поле58Column" msprop:Generator_UserColumnName="Поле58" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Параметры_x0020_ТС" msprop:Generator_TableClassName="Параметры_ТСDataTable" msprop:Generator_TableVarName="tableПараметры_ТС" msprop:Generator_TablePropName="Параметры_ТС" msprop:Generator_RowDeletingName="Параметры_ТСRowDeleting" msprop:Generator_RowChangingName="Параметры_ТСRowChanging" msprop:Generator_RowEvHandlerName="Параметры_ТСRowChangeEventHandler" msprop:Generator_RowDeletedName="Параметры_ТСRowDeleted" msprop:Generator_UserTableName="Параметры ТС" msprop:Generator_RowChangedName="Параметры_ТСRowChanged" msprop:Generator_RowEvArgName="Параметры_ТСRowChangeEvent" msprop:Generator_RowClassName="Параметры_ТСRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Код" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnКод" msprop:Generator_ColumnPropNameInRow="Код" msprop:Generator_ColumnPropNameInTable="КодColumn" msprop:Generator_UserColumnName="Код" type="xs:int" />
+              <xs:element name="Марка" msprop:Generator_ColumnVarNameInTable="columnМарка" msprop:Generator_ColumnPropNameInRow="Марка" msprop:Generator_ColumnPropNameInTable="МаркаColumn" msprop:Generator_UserColumnName="Марка" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Модель" msprop:Generator_ColumnVarNameInTable="columnМодель" msprop:Generator_ColumnPropNameInRow="Модель" msprop:Generator_ColumnPropNameInTable="МодельColumn" msprop:Generator_UserColumnName="Модель" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Пробег" msprop:Generator_ColumnVarNameInTable="columnПробег" msprop:Generator_ColumnPropNameInRow="Пробег" msprop:Generator_ColumnPropNameInTable="ПробегColumn" msprop:Generator_UserColumnName="Пробег" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Год_x0020_выпуска" msprop:Generator_ColumnVarNameInTable="columnГод_выпуска" msprop:Generator_ColumnPropNameInRow="Год_выпуска" msprop:Generator_ColumnPropNameInTable="Год_выпускаColumn" msprop:Generator_UserColumnName="Год выпуска" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Идентификауционный_x0020_номер_x0020__x0028_VIN_x0029_" msprop:Generator_ColumnVarNameInTable="_columnИдентификауционный_номер__VIN_" msprop:Generator_ColumnPropNameInRow="_Идентификауционный_номер__VIN_" msprop:Generator_ColumnPropNameInTable="_Идентификауционный_номер__VIN_Column" msprop:Generator_UserColumnName="Идентификауционный номер (VIN)" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:База_x0020_ИП" />
+      <xs:field xpath="mstns:Код1" />
+    </xs:unique>
+    <xs:unique name="Параметры_x0020_ТС_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Параметры_x0020_ТС" />
+      <xs:field xpath="mstns:Код" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="База_x0020_ИППараметры_x0020_ТС" msdata:parent="База_x0020_ИП" msdata:child="Параметры_x0020_ТС" msdata:parentkey="VIN-CODE" msdata:childkey="Идентификауционный_x0020_номер_x0020__x0028_VIN_x0029_" msprop:Generator_UserChildTable="Параметры ТС" msprop:Generator_ChildPropName="GetПараметры_ТСRows" msprop:Generator_UserRelationName="База ИППараметры ТС" msprop:Generator_ParentPropName="База_ИПRow" msprop:Generator_RelationVarName="relationБаза_ИППараметры_ТС" msprop:Generator_UserParentTable="База ИП" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
